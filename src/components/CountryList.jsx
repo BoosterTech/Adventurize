@@ -14,7 +14,7 @@ const CountryList = ({ cities, isLoading }) => {
     // Check if the country is already included in the array
     if (!arr.map((el) => el.country).includes(city.country)) {
       // If not included, add the country and emoji to the array
-      return [...arr, { country: city.country, emoji: city.emoji }];
+      return [...arr, { country: city.country, emoji: city.emoji, id: city.id }];
     } else {
       // If included, return the array as is
       return arr;
