@@ -3,8 +3,11 @@ import styles from "../components/CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Spinner from "./Spinner";
 import Message from "./Message";
+import { useCities } from "../contexts/CityContext";
 
-const CountryList = ({ cities, isLoading }) => {
+const CountryList = () => {
+  const { cities, isLoading } = useCities();
+
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
@@ -14,7 +17,10 @@ const CountryList = ({ cities, isLoading }) => {
     // Check if the country is already included in the array
     if (!arr.map((el) => el.country).includes(city.country)) {
       // If not included, add the country and emoji to the array
-      return [...arr, { country: city.country, emoji: city.emoji, id: city.id }];
+      return [
+        ...arr,
+        { country: city.country, emoji: city.emoji, id: city.id },
+      ];
     } else {
       // If included, return the array as is
       return arr;
