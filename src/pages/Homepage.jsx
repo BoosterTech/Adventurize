@@ -11,12 +11,13 @@ export default function Homepage() {
         <h1>
           You travel the world.
           <br />
-          WorldWise keeps track of your adventures.
+          Adventurize captures every step of your journey!
         </h1>
         <h2>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences, and show your friends how
-          you have wandered the world.
+          It tracks your adventures across the globe, ensuring you never
+          forget a single moment of your incredible experiences. Share your
+          memories with friends and showcase how you've explored the world
+          like never before.
         </h2>
         <Link to="/app">
           <Button type="primary">Start Tracking Now</Button>
