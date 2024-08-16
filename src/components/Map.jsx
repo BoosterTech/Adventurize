@@ -30,6 +30,7 @@ const Map = () => {
       <MapContainer
         center={mapPosition}
         zoom={5}
+        minZoom={3}
         scrollWheelZoom={true}
         className={styles.map}
       >
