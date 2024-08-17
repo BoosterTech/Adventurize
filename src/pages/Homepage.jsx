@@ -19,7 +19,7 @@ export default function Homepage() {
           memories with friends and showcase how you've explored the world
           like never before.
         </h2>
-        <Link to="/app">
+        <Link to="/login">
           <Button type="primary">Start Tracking Now</Button>
         </Link>
       </section>
