@@ -1,9 +1,9 @@
 {
   "name": "adventurize",
-  "homepage": "https://boostertech.github.io/Adventurize",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://boostertech.github.io/Adventurize",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

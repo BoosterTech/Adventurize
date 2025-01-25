@@ -6,5 +6,5 @@ import eslint from "vite-plugin-eslint";
 export default defineConfig({
   plugins: [react(), eslint()],
   build: { chunkSizeWarningLimit: 1000, outDir: "build" },
-  base: "/Adventurize",
+  // base: "/Adventurize",
 });
