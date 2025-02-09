@@ -4,10 +4,11 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
-  const isProduction = command === "build"; // check if we're in production mode
+  // const isProduction = command === "build"; // check if we're in production mode
   return {
     plugins: [react(), eslint()],
     build: { chunkSizeWarningLimit: 1000, outDir: "build" },
-    base: isProduction ? "/Adventurize/" : "/", // Use "/" for development and "/Adventurize/" for production
+    base: "/Adventurize/",
+    // isProduction ? "/Adventurize/" : "/", // Use "/" for development and "/Adventurize/" for production
   };
 });
