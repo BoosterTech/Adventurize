@@ -1,51 +1,27 @@
 {
   "cities": [
     {
-      "id": "ab74",
-      "cityName": "London",
-      "countryName": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2024-08-17T20:07:57.814Z",
-      "notes": "very nice place",
-      "position": {
-        "lat": "51.481382896100975",
-        "lng": "-0.12084960937500001"
-      }
-    },
-    {
-      "id": "ee74",
-      "cityName": "Paris",
-      "countryName": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-17T20:08:17.477Z",
-      "notes": "beautiful",
-      "position": {
-        "lat": "48.83941303819501",
-        "lng": "2.3400878906250004"
-      }
-    },
-    {
-      "id": "564e",
-      "cityName": "Troy",
-      "countryName": "United States of America (the)",
-      "emoji": "🇫🇷",
-      "date": "2024-08-17T20:41:59.698Z",
+      "id": "03f1",
+      "cityName": "Charagua",
+      "countryName": "Bolivia (Plurinational State of)",
+      "emoji": "🇧🇴",
+      "date": "2025-02-08T23:31:13.922Z",
       "notes": "",
       "position": {
-        "lat": "48.922499263758255",
-        "lng": "-115.66406250000001"
+        "lat": "-18.81271785640776",
+        "lng": "-59.23828125000001"
       }
     },
     {
-      "id": "fe10",
-      "cityName": "Venice",
-      "countryName": "Italy",
-      "emoji": "🇮🇹",
-      "date": "2024-08-18T17:25:19.644Z",
-      "notes": "nice place",
+      "id": "b1e6",
+      "cityName": "Socorro",
+      "countryName": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-02-08T23:31:18.722Z",
+      "notes": "",
       "position": {
-        "lat": "45.46783598133375",
-        "lng": "12.233276367187502"
+        "lat": "34.30714385628804",
+        "lng": "-106.5234375"
       }
     }
   ]

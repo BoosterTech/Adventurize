@@ -18,9 +18,9 @@ function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter basename="/Adventurize/">
+        <BrowserRouter >
           <Routes>
-            <Route path="/Adventurize" element={<Homepage />} />
+            <Route path="/Adventurize/" element={<Homepage />} />
             <Route path="product" element={<Product />} />
             <Route path="pricing" element={<Pricing />} />
             <Route path="/login" element={<Login />} />
