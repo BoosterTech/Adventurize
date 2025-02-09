@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "03f1",
+      "cityName": "Charagua",
+      "countryName": "Bolivia (Plurinational State of)",
+      "emoji": "🇧🇴",
+      "date": "2025-02-08T23:31:13.922Z",
+      "notes": "",
+      "position": {
+        "lat": "-18.81271785640776",
+        "lng": "-59.23828125000001"
+      }
+    },
+    {
+      "id": "b1e6",
+      "cityName": "Socorro",
+      "countryName": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-02-08T23:31:18.722Z",
+      "notes": "",
+      "position": {
+        "lat": "34.30714385628804",
+        "lng": "-106.5234375"
+      }
+    }
+  ]
+}
